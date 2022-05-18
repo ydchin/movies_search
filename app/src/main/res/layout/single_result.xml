@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="utf-8"?>
+<com.google.android.material.card.MaterialCardView
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="horizontal"
+    android:layout_margin="8dp">
+    <TextView
+        android:id="@+id/original_title"
+        android:layout_width="300dp"
+        android:layout_height="wrap_content"
+        android:textAppearance="?attr/textAppearanceHeadline5"
+        android:layout_gravity="left"
+        android:padding="16dp"/>
+    <TextView
+        android:id="@+id/moviePopularity"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textAppearance="?attr/textAppearanceHeadline5"
+        android:layout_gravity="right"
+        android:padding="16dp"/>
+
+<!--    <ImageView-->
+<!--        android:layout_width="150dp"-->
+<!--        android:layout_height="200dp"-->
+<!--        android:layout_gravity="center"-->
+<!--        android:layout_marginTop="20dp"-->
+<!--        android:id="@+id/reheheimage"/>-->
+</com.google.android.material.card.MaterialCardView>

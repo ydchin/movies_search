@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="utf-8"?>
+<com.google.android.material.card.MaterialCardView
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="horizontal"
+    android:layout_margin="8dp">
+    <TextView
+        android:id="@+id/place"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textAppearance="?attr/textAppearanceHeadline5"
+        android:layout_gravity="left"
+        android:padding="16dp"/>
+    <TextView
+        android:id="@+id/tv_name"
+        android:layout_width="220dp"
+        android:layout_height="wrap_content"
+        android:textAppearance="?attr/textAppearanceHeadline5"
+        android:layout_marginStart="50dp"
+        android:gravity="center"
+        android:padding="16dp"/>
+
+    <TextView
+        android:id="@+id/rating"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textAppearance="?attr/textAppearanceHeadline5"
+        android:padding="16dp"
+        android:layout_marginLeft="20dp"
+        android:layout_gravity="right"/>
+
+</com.google.android.material.card.MaterialCardView>

@@ -1,0 +1,11 @@
+<resources>
+    <string name="app_name">Movies_DB</string>
+
+    <string name="search_bar_name">Movies and TV Shows</string>
+    <string name="search_submit">Search</string>
+    <string name="home_header">Popular</string>
+
+    <string name="rank_header"><u><b>Rank</b></u></string>
+    <string name="title_header"><u><b>Title</b></u></string>
+    <string name="rating_header"><u><b>Rating</b></u></string>
+</resources>
